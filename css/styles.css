@@ -228,17 +228,50 @@ body > footer ul {
 	border-left: none;
 }
 
+#search {
+	background-color:;
+}
 
+#categories {
+	background-color: white;
+	width: 66.66%;
+}
 
+#categories:after {
+	content: '';
+	display: block;
+	clear: both;
+}
 
+.cotainer {
+	width: 960px;
+	margin: 0 auto;
+}
 
+#main-cetegories {
+	padding-left: 0;
+	list-style: none;
+}
 
+#main-categories li {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
 
+#main-categories ~ul {
 
+}
 
+#catagories ul:last-child {
+	padding: 20px;
+	background-color: red;
+}
 
-
-
+#categories ul {
+	display: inline-block;
+	text-align: left;
+}
 
 
 
